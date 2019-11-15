@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Bootstrap first exercise</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <h2 style="text-align:center;">Bootstrap grid exercise</h2>
+        <h3 style="margin-left: 10%;">Container types</h3>
+        <div class="container">
+            <div class="row">
+                <div class="col bg-danger">
+                    <h4>.container</h4>
+                    <p>Responsive container with padding-right y padding-left value '15px', margin-right and left-value 'auto', and 3 media query for responsiveness</p>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col bg-info">
+                    <h4>.container-fluid</h4> 
+                    <p>Non-responsive container with width property at 100%</p>
+                </div>
+            </div>
+        </div>
+        <h3 style="margin-left: 10%;">Grid System</h3>
+        <div class="container">
+            <div class="row ">
+                <div class="col-xs-12 col-sm-8 col-md-4 col-lg-2 bg-danger">
+                    <h2>Column 1</h2>
+                    <p>Column de dimensiones:<br> col-xs-12: 12 grids for mobile phones.<br> col-sm-8 8 grids for tablets<br> col-md-4 grids for desktops<br> col-lg-2: 2 grids for large desktops</p>
+                </div>
+                <div class="col-xs-12 col-sm-2 col-md-4 col-lg-2 bg-info">
+                    <h2>Column 2</h2>
+                    <p>Column de dimensiones:<br> col-xs-12: 12 grids for mobile phones. <br>col-sm-8 8 grids for tablets<br> col-md-4 grids for desktops <br>col-lg-2: 2 grids for large desktops</p>
+                </div>
+                <div class="col-xs-12 col-sm-2 col-md-4 col-lg-8 bg-danger">
+                    <h2>Column 3</h2>
+                    <p>Column de dimensiones: <br>col-xs-12: 12 grids for mobile phones. <br>col-sm-2 2 grids for tablets <br>col-md-4 grids for desktops <br>col-lg-8: 8 grids for large desktops</p>
+                </div>
+            </div>
+        </div>
+        <h3 style="margin-left: 10%;">Offset Columns</h3>
+        <div class="container">
+            <div class="row justify-content-between">
+                <div class="col-sm-12 col-xs-12 col-md-4 col-lg-4 col-xl-4 bg-danger">
+                    <h2>Column 1</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ex eros, consequat eu lacinia a, laoreet at augue. Proin nec dolor sed risus facilisis scelerisque. Sed nisl ex, tempor ut sagittis vel, finibus sit amet odio. Nunc vel finibus augue. Nulla id nisi nec augue volutpat auctor. Nam sapien lacus, hendrerit a lobortis sed, porttitor eu ligula. Vivamus molestie pulvinar aliquam. In condimentum a lacus vitae facilisis.</p>
+                </div>
+                <div class="col-sm-12 col-xs-12 col-md-4 col-lg-4 col-xl-4 offset-md-4 bg-info">
+                    <h2>Column 2</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eget sapien orci. Morbi a purus nisi. Nam fermentum ultrices odio in tincidunt. Suspendisse turpis lorem, aliquet sit amet eros quis, efficitur bibendum magna. Maecenas et nisl vel augue pharetra aliquam sed vel lacus. Suspendisse a ante viverra, volutpat magna at, tempor enim. Morbi semper erat eu odio ultricies, vitae ultricies purus pulvinar.</p>
+                </div>
+            </div>
+        </div>
+        <h3 style="margin-left: 10%;">Change order Columns - Pull and Push</h3>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-xs-12 col-md-12 col-lg-8 col-xl-8 order-lg-8 order-xl-8 bg-danger">
+                    <h2>Column 1</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ex eros, consequat eu lacinia a, laoreet at augue. Proin nec dolor sed risus facilisis scelerisque. Sed nisl ex, tempor ut sagittis vel, finibus sit amet odio. Nunc vel finibus augue. Nulla id nisi nec augue volutpat auctor. Nam sapien lacus, hendrerit a lobortis sed, porttitor eu ligula. Vivamus molestie pulvinar aliquam. In condimentum a lacus vitae facilisis.</p>
+                </div>
+                <div class=" col-sm-12 col-xs-12 col-md-12 col-lg-4 col-xl-4 order-lg-4 order-xl-4 bg-info">
+                    <h2>Column 2</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eget sapien orci. Morbi a purus nisi. Nam fermentum ultrices odio in tincidunt. Suspendisse turpis lorem, aliquet sit amet eros quis, efficitur bibendum magna. Maecenas et nisl vel augue pharetra aliquam sed vel lacus. Suspendisse a ante viverra, volutpat magna at, tempor enim. Morbi semper erat eu odio ultricies, vitae ultricies purus pulvinar.</p>
+                </div>
+            </div>
+        </div>
+        <h3 style="margin-left: 10%;">Hidden Columns</h3>
+        <div class="container">
+            <div class="row ">
+                <div class="col-xs-8 col-sm-4 col-md-4 col-lg-4 bg-danger">
+                    <h2>Column 1</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eget sapien orci. Morbi a purus nisi. Nam fermentum ultrices odio in tincidunt. Suspendisse turpis lorem, aliquet sit amet eros quis, efficitur bibendum magna. Maecenas et nisl vel augue pharetra aliquam sed vel lacus. Suspendisse a ante viverra, volutpat magna at, tempor enim. Morbi semper erat eu odio ultricies, vitae ultricies purus pulvinar.</p>
+                </div>
+                <div class="d-none d-sm-block col-sm-8 col-md-4 col-lg-4 bg-info">
+                    <h2>Column 2</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eget sapien orci. Morbi a purus nisi. Nam fermentum ultrices odio in tincidunt. Suspendisse turpis lorem, aliquet sit amet eros quis, efficitur bibendum magna. Maecenas et nisl vel augue pharetra aliquam sed vel lacus. Suspendisse a ante viverra, volutpat magna at, tempor enim. Morbi semper erat eu odio ultricies, vitae ultricies purus pulvinar.</p>
+                </div>
+                <div class="col-xs-4 d-sm-none d-md-block col-md-4 col-lg-4 bg-warning">
+                    <h2>Column 3</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eget sapien orci. Morbi a purus nisi. Nam fermentum ultrices odio in tincidunt. Suspendisse turpis lorem, aliquet sit amet eros quis, efficitur bibendum magna. Maecenas et nisl vel augue pharetra aliquam sed vel lacus. Suspendisse a ante viverra, volutpat magna at, tempor enim. Morbi semper erat eu odio ultricies, vitae ultricies purus pulvinar.</p>
+                </div>
+            </div>
+        </div>
+        
+        
+        
+        
+
+    </body>
+</html>

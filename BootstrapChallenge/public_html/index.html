@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      
+        <title>Bootstrap Challenge</title>
+          <meta charset="utf-8">
+          <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+        
+    </head>
+    <body id="top" style="background-color:lavender;">
+            <h1 class="jumbotron text-center text-danger" style="margin-bottom:0"> CSS Tutorial </h1>
+
+            <div> 
+                <nav class="navbar navbar-expand-sm bg-dark navbar-dark text-warning">
+                    <ul  
+                            <li class="nav-item "><a class="nav-link text-warning" href="#Why">Why use CSS</a></li>
+                            <li class="nav-item "><a class="nav-link text-warning" href="#What">What is CSS</a></li>
+                            <li class="nav-item "><a class="nav-link text-warning" href="#Sintax">CSS Sintax</a></li>
+                            <li class="nav-item "><a class="nav-link text-warning" href="#Tables">Tables Summary</a></li>
+                    </ul>
+                </nav>
+            </div>
+        <div class="row">
+            
+            <div id="Why" class="col" style="background-color:lavender;"> <h3>Why Use CSS?</h3> 
+                  CSS is used to define styles for your web pages, including the design, layout and variations in display for different devices and screen sizes. 
+                  
+            </div>
+            
+            <div id="What" class="col" style="background-color:lavender;"> <h3>What is CSS?<span class="badge badge-primary">New</span></h3> 
+                    <ul class="list-group">
+                            <li class="list-group-item d-flex list-group-item-secondary justify-content-between align-items-center">CSS stands for Cascading Style Sheets <span class="badge badge-primary badge-pill">1</span></li>
+                            <li class="list-group-item d-flex list-group-item-primary justify-content-between align-items-center">CSS describes how HTML elements are to be displayed on screen, paper, or in other media <span class="badge badge-primary badge-pill">2</span></li>
+                            <li class="list-group-item d-flex list-group-item-secondary  justify-content-between align-items-center">CSS saves a lot of work. It can control the layout of multiple web pages all at once <span class="badge badge-primary badge-pill">3</span></li>
+                            <li class="list-group-item d-flex list-group-item-primary justify-content-between align-items-center">External stylesheets are stored in CSS files <span class="badge badge-primary badge-pill">4</span></li>
+                    </ul>
+            </div>
+
+            
+        </div>
+        
+            <div id="Sintax" style="background-color:lavender;"> <h3> CSS Syntax</h3>
+                A CSS rule-set consists of a selector and a declaration block: <br> <br>
+                
+                
+                <button type="button" class="btn btn-outline-info" data-toggle="modal" data-target="#myModal" >Open Image</button>
+
+  <!-- The Modal -->
+  <div class="modal" id="myModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+      
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">Image</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        
+        <!-- Modal body -->
+        <div class="modal-body">
+          <IMG SRC="images/selector.gif" class="img-thumbnail mx-auto d-block">
+        </div>
+        
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        </div>
+                    <div id="demo" class="collapse">
+                      
+                    </div>
+      </div>
+    </div>
+  </div>
+                    
+            </div>
+            <br>
+                <div class="progress">
+            <div class="progress-bar bg-warning progress-bar-striped progress-bar-animated" style="width:50%"></div>
+             </div>
+            <br>
+            <div id="Tables" style="background-color:lavender;"> <h3>Tables summary <span class="badge badge-warning">Important</span></h3>
+                    <table border="1" class="table table-dark table-hover text-warning">    
+                            <TR>
+                                    <TD></TD>
+                                    <TH>TABLE</TH>
+                                    <TH>TR</TH>
+                                    <TH>TD</TH>
+                                    <TH>TH</TH>
+                            </TR>
+
+                            <TR>    
+                                    <TH>BORDER</TH>
+                                    <TD>X</TD>
+                                    <TD>-</TD>
+                                    <TD>-</TD>
+                                    <TD>-</TD>
+                            </TR>
+
+                            <TR>    
+                                    <TH>ROWSPAN</TH>
+                                    <TD>-</TD>
+                                    <TD>-</TD>
+                                    <TD>X</TD>
+                                    <TD>X</TD>
+                            </TR>
+
+                            <TR>    
+                                    <TH>COLSPAN</TH>
+                                    <TD>-</TD>
+                                    <TD>-</TD>
+                                    <TD>X</TD>
+                                    <TD>X</TD>
+                            </TR>
+
+                    </table>
+            </div>
+        
+            <a href="#top"><button type="button" class="btn btn-warning btn-block">Go to the Top</button></a>
+    </body>
+</html>

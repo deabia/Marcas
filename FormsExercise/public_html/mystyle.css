@@ -1,0 +1,17 @@
+body{
+    background-color: aquamarine;
+}
+
+fieldset{
+    background-color: lightblue;
+    float:left;
+}
+div{
+    float:left;
+    margin: 1%;
+    padding:1%;
+    margin-top: 25%;
+}
+legend,h1{
+    color:coral;
+}

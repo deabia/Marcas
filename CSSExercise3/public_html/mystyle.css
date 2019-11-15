@@ -1,0 +1,148 @@
+div.box12{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    background-color: lightblue;
+    text-align:center;
+    height: 400px;
+    float: left;
+    width: 50%;
+    border: 3px solid black;
+}
+
+div.box34{
+    box-sizing: border-box;
+    margin:1%;
+    padding:0;
+    background-color: lightblue;
+    text-align:center;
+    height: 400px;
+    float: left;
+    width: 48%;
+    padding: 0;
+    max-width: 100%;
+}
+
+div.menu{
+    box-sizing: border-box;
+    margin:0;
+    width: 20%;
+    padding:0;
+    height: 500px;
+    float: left;
+    max-width: 100%;
+    text-align:center;
+    background-color: lightgreen;
+}
+
+div.main{
+    box-sizing: border-box;
+    margin:1%;
+    width: 78%; 
+    padding:0;
+    height: 500px;
+    float: left;
+    max-width: 100%;
+    text-align:center;
+    background-color: blueviolet;
+}
+
+div.boxmenu3 {
+    box-sizing: border-box; 
+    margin:0; 
+    padding:0;
+    width: 20%;
+    float: left;
+    text-align: center;
+}
+
+div.articles {
+    box-sizing: border-box; 
+    margin:0; 
+    padding:0;
+    width: 80%;
+    float: left;
+    text-align: center;
+}
+
+div.article1 {
+    box-sizing: border-box; 
+    margin-left:4%; 
+    padding:1em;
+    width: 40%;
+    height: 250px;
+    float: left;
+    background-color: lightcoral;
+}
+
+div.article23 {
+    box-sizing: border-box;  
+    margin-left: 2%;
+    margin:1%;
+    padding:1%;
+    width: 50%;
+    float: left;
+    border: 2px solid blueviolet;
+    background-color: lightcoral;
+    height:120px;
+    margin-bottom: 0;
+}
+ul{
+    list-style-type:none;
+}
+li{
+    box-sizing: border-box;  
+    margin:1%;
+    padding:0.6em;
+    background-color: darkorange;
+    border: 3px dotted black;
+    text-align: center;
+}
+li a:hover{
+    background-color: #3646d4;
+    color: white; 
+}
+p.font {
+    font-family: 'Gloria Hallelujah', cursive;
+    background-color: white;
+    margin: 15%;
+}
+h2.menu{
+    background-color: lightgreen;
+}
+
+div.boxmenu4{
+    box-sizing: border-box;  
+    margin:0;
+    padding:0;
+    width: 100%;
+}
+div.box4option{
+    box-sizing: border-box;  
+    margin:0.5em;
+    padding:0;
+    float: left;
+}
+
+div.box4chapter{
+    box-sizing: border-box;  
+    margin:1.5%;
+    padding:0;
+    float: left;
+    width: 22%;
+    font-size: 16px;
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
+div.box4images{
+    box-sizing: border-box;  
+    margin:0.5em;
+    padding:0;
+    float: left;
+    width: 22%;
+}
+img{
+    height:20%;
+    width: auto;
+    float: left;
+}
